@@ -5,3 +5,5 @@ Simply fillout the necessary ATRAN form constants (Altitude, water vapor, resolu
 
 Overall, the script simply obtains the needed parameters, references the link and appends the URL, submits the parameters, and then downloads the output file.
 
+Created by Fahin Rahman
+
