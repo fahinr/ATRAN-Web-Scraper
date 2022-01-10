@@ -28,7 +28,7 @@ def getAtran(dest, pwv, el, waveMin, waveMax):
   atran_site['WaveMax'] = str(waveMax)
   atran_site['Resolution'] = '70000'
   
-  #Submit the form and get a response unless there's an error and retry (not good): 
+  #Submit the form and get a response unless there's an error and retry (not good since it keeps retrying, but we'll have to let it slide for now): 
   try:
     response = atran_site.submit()
   except UnicodeEncodeError:
